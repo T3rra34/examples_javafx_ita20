@@ -4,9 +4,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 public class Controller {
     @FXML
-    private  Button btn;
+    private  Button button;
     @FXML
     private void click(ActionEvent event) {
-        btn.setText("You've clicked");
+        button.setText("You've clicked");
     }
 }
